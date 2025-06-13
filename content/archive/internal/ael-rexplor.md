@@ -1,10 +1,10 @@
 ---
 title: "Exploration de données avec R"
-author: "Anouar El Ghouch"
-date: "2020-08-21T14:14:00Z"
+author: "ael"
+date: "2023-12-25T20:25:17Z"
 link: "https://bookdown.org/ael/rexplor/"
-length_weight: "20.3%"
+length_weight: "7.8%"
 pinned: false
 ---
 
- Ce document est une introduction à l’utilisation du logiciel libre de traitement de données et d’analyse statistique R. il est inspiré de plusieurs sources: Ce document vise à introduire uniquement les notions de base nécessaire à connaitre pour quelqu’un qui découvre le logiciel pour la première ...
+Pour obtenir la dernière version de ce livre, visitez le site: Ce document est une introduction à l’utilisation du logiciel libre de traitement de données et d’analyse statistique R. Il vise à introduire uniquement les notions de base nécessaire à connaitre pour quelqu’un qui découvre ce langage de programmation pour la première fois. Ce document est inspiré de plusieurs sources, parmi lesquels nous citons les références suivantes En anglais : En français :  ...

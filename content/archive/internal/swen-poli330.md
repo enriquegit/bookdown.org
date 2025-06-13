@@ -1,10 +1,10 @@
 ---
 title: "POLI 330 International Organization"
-author: "Shaoshuang Wen"
-date: "2020-05-20T02:46:21Z"
+author: "Shaoshuang Wen, University of South Carolina,"
+date: "2021-05-25T14:08:07Z"
 tags: [Package, Course]
 link: "https://bookdown.org/swen/poli330/"
-length_weight: "21.8%"
+length_weight: "6.2%"
 repo: "rstudio/bookdown-demo"
 pinned: false
 ---

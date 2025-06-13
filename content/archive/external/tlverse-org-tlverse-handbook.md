@@ -1,18 +1,18 @@
 ---
-title: "The Hitchhiker’s Guide to the tlverse"
-author: "Jeremy Coyle, Nima Hejazi, Ivana Malenica, Rachael Phillips, Alan Hubbard, Mark van der Laan"
-date: "2020-02-21"
-tags: [Guide, Github]
+title: "Targeted Learning in R"
+author: "Mark van der Laan, Jeremy Coyle, Nima Hejazi, Ivana Malenica, Rachael Phillips, Alan Hubbard"
+date: "2023-07-07"
+tags: [Machine Learning, Data Science, Github]
 link: "https://tlverse.org/tlverse-handbook/"
-length_weight: "18.9%"
+length_weight: "6.6%"
 repo: "tlverse/tlverse-handbook"
 pinned: false
 ---
 
-An open-source and fully-reproducible electronic handbook for applying the targeted learning methodology in practice using the tlverse software ecosystem. [...] The Hitchhiker’s Guide to the tlverse, or a Targeted Learning Practitioner’s
-Handbook is an open-source and fully-reproducible electronic handbook for
-applying the targeted learning methodology in practice using the tlverse
-software ecosystem. This work is currently in an
-early draft phase and is available to facilitate input from the community. To
-view or contribute to the available content, consider visiting the
-GitHub repository ...
+An open source handbook for causal machine learning and data science with the Targeted Learning framework using the tlverse software ecosystem. [...] Targeted Learning in R: Causal Data Science with the tlverse Software
+Ecosystem is an fully reproducible, open source, electronic handbook for
+applying Targeted Learning methodology in practice using the software stack
+provided by the tlverse ecosystem. This work is
+a draft phase and is publicly available to solicit input from the community. To
+view or contribute, visit the GitHub
+repository. The contents of this handbook are meant to serve as a ...

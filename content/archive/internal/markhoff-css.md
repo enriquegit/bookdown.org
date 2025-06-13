@@ -1,10 +1,11 @@
 ---
 title: "Introduction to Computational Social Science"
-author: "Mark Hoffman and Tyler McDaniel"
-date: "2020-02-26T21:40:33Z"
+author: "Mark Hoffman"
+date: "2021-10-09T22:06:45Z"
 tags: [Social Science, Seminar, Network]
 link: "https://bookdown.org/markhoff/css/"
-length_weight: "31.3%"
+length_weight: "7.9%"
+cover: "https://bookdown.org/markhoff/css/Images/cover.png"
 pinned: false
 ---
 

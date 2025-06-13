@@ -4,7 +4,8 @@ author: "Bradley Boehmke & Brandon Greenwell"
 date: "2020-02-01"
 tags: [Machine Learning, Models, Package]
 link: "https://bradleyboehmke.github.io/HOML/"
-length_weight: "33%"
+length_weight: "9.4%"
+cover: "https://bradleyboehmke.github.io/HOML/images/homl-cover.jpg"
 repo: "bradleyboehmke/hands-on-machine-learning-with-r"
 pinned: false
 ---

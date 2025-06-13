@@ -1,13 +1,13 @@
 ---
 title: "Notes for Predictive Modeling"
-author: "Eduardo García Portugués"
-date: "2020-03-25T22:07:44Z"
-tags: [Predictive Model, Course]
+author: "Eduardo García-Portugués"
+date: "2025-04-25T21:20:31Z"
+tags: [Predictive Model, Course, Statistical Methods]
 link: "https://bookdown.org/egarpor/PM-UC3M/"
 length_weight: "100%"
 cover: "https://bookdown.org/egarpor/PM-UC3M/images/figures/cover.png"
 pinned: false
 ---
 
-Notes for Predictive Modeling. MSc in Big Data Analytics.
-Carlos III University of Madrid. [...] Welcome to the notes for Predictive Modeling for the course 2019/2020. The subject is part of the MSc in Big Data Analytics from Carlos III University of Madrid. The course is designed to have, roughly, one lesson per each main topic in the syllabus. The schedule is tight due to time constraints, which will inevitably make the treatment of certain methods a little superficial compared with what it would be the optimal. Nevertheless, the course will hopefully give you a respectable panoramic view ...
+<p>Notes for Predictive Modeling. MSc in Big Data Analytics.
+Carlos III University of Madrid.</p> [...] Welcome to the notes for Predictive Modeling. The course is part of the MSc in Big Data Analytics from Carlos III University of Madrid. The course is designed to have, roughly, one session per main topic in the syllabus. The schedule is tight due to time constraints, which will inevitably make the treatment of certain methods somehow superficial. Nevertheless, the course will hopefully give you a respectable panoramic view of different available statistical methods for predictive modeling. ...

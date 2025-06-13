@@ -1,0 +1,74 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 5 * * 4'
+  
+name: Update books infos
+jobs:
+  create_md:
+    name: fetch updated info
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      RENV_PATHS_ROOT: ~/.local/share/renv
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: r-lib/actions/setup-r@v2
+        id: install-r
+        with:
+          r-version: '4.1.1'
+          use-public-rspm: true
+      
+      - name: Cache Renv packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-1-${{ hashFiles('R/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-1-
+            ${{ runner.os }}-renv-
+            
+      - name: Install packages
+        run: | 
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore(repos = "https://packagemanager.rstudio.com/all/latest")
+        shell: Rscript {0}
+        working-directory: R/
+        
+      - name: Update books
+        env:
+          RSC_BOOKDOWN_ORG_TOKEN: ${{ secrets.RSC_BOOKDOWN_ORG_TOKEN }}
+          PINS_VERBOSE: true
+          LOGGER_LOG_LEVEL: ${{ secrets.LOGGER_LOG_LEVEL }}
+        run: Rscript create-md.R
+        working-directory: R/
+        
+      - uses: actions/upload-artifact@v4
+        with:
+          name: saved_books_metas
+          path: '**/saved_books_metas.rds'
+          retention-days: 7
+      
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            new book updates [auto PR]
+          branch: updates/gha-auto
+          delete-branch: true
+          reviewers: cderv
+          title: |
+            Books meta updates
+          body: |
+            This PR was created automatically with new book updates. 
+            Please review and merge to trigger a new build of the website.
+            
+      - name: Check auto PR outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+          echo "Pull Request Action Performed - ${{ steps.cpr.outputs.pull-request-operation }}"
+          

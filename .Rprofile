@@ -1,6 +1,6 @@
 if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile', envir = environment())
 
 options(
-  blogdown.generator.server = TRUE,
-  blogdown.hugo.server = c('-D', '-F', '--navigateToChanged')
+  blogdown.serve_site.startup = FALSE,
+  blogdown.hugo.version = "0.131.0"
 )

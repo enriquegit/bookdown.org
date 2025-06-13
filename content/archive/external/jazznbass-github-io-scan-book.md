@@ -1,12 +1,12 @@
 ---
-title: "Analyzing single-case data with R and scan"
+title: "Analyzing Single-Case Data with R and Scan"
 author: "Jürgen Wilbert"
-date: "2019-08-21"
-tags: [Package]
+date: ""
+tags: [Github, Package]
 link: "https://jazznbass.github.io/scan-Book/"
-length_weight: "12.6%"
-repo: "jazznbass/scan-book"
+length_weight: "6.1%"
+cover: "https://jazznbass.github.io/scan-Book/./cover.png"
 pinned: false
 ---
 
-This is a book on analyzing single-case data but also on how to do this using the R package scan [...]  ...
+Jürgen Wilbert Version 25.04 (build 7) Please support open-access publishing by citing this work: Wilbert, J. (2025). Analyzing single-case data with R and scan. doi: 10.5281/zenodo.14950444. https://jazznbass.github.io/scan-Book/ Welcome dear readers! I am delighted to see that you have discovered this book - it suggests that you interested in single-case research and have begun to explore the scan package. This book pursues two maingoals: First, it is a practical manual for using the scan package in R. Second, it offers a comprehensive overview of methods and approaches to analysze ...

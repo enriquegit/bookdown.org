@@ -1,12 +1,12 @@
 ---
-title: "MGHIHP HE-902, Spring 2020"
+title: "Responsible applied statistics in R for behavioral and health data"
 author: "Anshul Kumar"
-date: "2020-04-13T06:33:48Z"
-tags: [Course, Statistics, Guide]
+date: "2025-03-17T21:09:25Z"
+tags: [Statistics, Textbook, Course, Education]
 link: "https://bookdown.org/anshul302/HE902-MGHIHP-Spring2020/"
 length_weight: "100%"
 repo: "rstudio/bookdown-demo"
 pinned: false
 ---
 
-This e-book accompanies the course HE-902 in the PhD in HPEd program at MGHIHP (http://mghihp.edu/phdhped). HE-902 is a statistics course that equips students to analyze healthcare and/or behavioral data in R. [...] This online e-book is the main resource to guide you through the course HE-902 in the PhD in HPEd program at MGHIHP in the Spring 2020 semester. Each chapter contains reading (or links to reading) that you should do as well as an assignment that you should complete and submit by the deadline in the course calendar. My name is Anshul Kumar and I am the author/preparer of this ...
+This textbook accompanies the course HE-902 in the PhD in HPEd program at MGHIHP (http://mghihp.edu/phdhped). HE-902 is a statistics course that equips students to analyze healthcare or behavioral data in R. [...] Welcome to HE-902 at MGH Institute of Health Professions! Please watch the following welcome video: This video can be viewed externally at https://youtu.be/XUMwNmyGhh0. Please additionally read the following items: This textbook accompanies the course HE-902—Advanced Statistical Modeling for Health Professions Education—in the PhD in HPEd program at MGH Institute of Health ...

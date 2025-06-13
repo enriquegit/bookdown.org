@@ -1,10 +1,10 @@
 ---
-title: "Lean Seis Sigma"
-author: "A.M.Mayoral"
-date: "2020-08-14T09:03:28Z"
+title: "Lean Seis Sigma para la Mejora de Procesos"
+author: "asun_mayoral"
+date: "2022-01-07T14:39:47Z"
 link: "https://bookdown.org/asun_mayoral/book-l6s/"
-length_weight: "34.7%"
+length_weight: "11.4%"
 pinned: false
 ---
 
-Apuntes para la asignatura Mejora de Procesos (1479) del Grado en Estadística Empresarial de la Universidad Miguel Hernández [...] Este libro online proporciona los recursos de aprendizaje para la asignatura 1479 Mejora de Procesos basada en la metodología Lean Seis Sigma, que se imparte en el 4º curso del Grado en Estadística Empresarial de la Universidad Miguel Hernández de Elche, España-Spain (UMH), a través de la plataforma Google Classroom. La recopilación y creación de contenidos y actividades han sido desarrolladas por los profesores matemáticos-estadísticos del Depto. Estadística, ...
+Contenidos teórico-prácticos de la asignatura Mejora de Procesos (1479), en el Grado en Estadística Empresarial, de la Universidad Miguel Hernández de Elche [...] Este libro contiene los contenidos teóricos y algunos ejemplos desarrollados para el aprendizaje de la asignatura Mejora de Procesos (código 1479) que se imparte en el 4º curso del Grado en Estadística Empresarial de la Universidad Miguel Hernández de Elche (UMH), en España. En la recopilación de contenidos teóricos, los autores agradecemos los materiales que nos compartió en su día nuestro gran amigo Luis Giménez Guardiola, que ...

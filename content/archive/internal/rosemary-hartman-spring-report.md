@@ -1,9 +1,9 @@
 ---
-title: "IEP Seasonal Monitoring Report: Spring 2018 | Secchi Depth"
+title: "Secchi Depth"
 author: "Rosemary_Hartman"
 date: "2020-03-18T22:23:17Z"
 link: "https://bookdown.org/Rosemary_Hartman/spring-report/"
-length_weight: "9.6%"
+length_weight: "2.7%"
 repo: "https://github.com/InteragencyEcologicalProgram/Status-and-Trends"
 pinned: false
 ---

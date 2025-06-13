@@ -4,7 +4,7 @@ author: "Perry Stephenson"
 date: ""
 tags: [Data Science, Course]
 link: "https://datasciencepractice.study/"
-length_weight: "38.1%"
+length_weight: "0%"
 cover: "https://datasciencepractice.study/images/cover.png"
 pinned: false
 ---
@@ -19,4 +19,4 @@ For more information about this subject see the Subject Information. For more
 information about the MDSI program see the MDSI
 Prospectus. Whilst these course materials have been produced specifically for MDSI
 students, they have been made available under a permissive
-license for the benefit of the  ...
+license for the benefit of the wider ...

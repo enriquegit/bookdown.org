@@ -1,13 +1,12 @@
 ---
 title: "Data Integration, Manipulation and Visualization of Phylogenetic Trees"
-author: "Guangchuang Yu, PhD"
-date: "2020-08-22"
-tags: [Visualization, Biology, Guide, Package, Tidy, ggplot2]
+author: "Guangchuang Yu"
+date: "2022-07-13"
+tags: [Visualization, Package, Guide, Tidy, ggplot2]
 link: "https://yulab-smu.top/treedata-book/"
-length_weight: "21.3%"
+length_weight: "3%"
+cover: "https://yulab-smu.top/treedata-book/book-cover.png"
 pinned: false
 ---
 
-Data Integration, Manipulation and Visualization of Phylogenetic Trees [...] You can’t even begin to understand biology, you can’t understand life, unless
-you understand what it’s all there for, how it arose - and that means
-evolution. — Richard Dawkins The book is meant as a guide for data integration, manipulation and visualization of phylogenetic trees using a suite of R packages, tidytree, treeio and ggtree. Hence, if you are starting to read this book, we assume you have a working knowledge of how to use R and ggplot2. If you use the software suite in published research, please cite the ...
+Master ggtree package suite to handle tree with data. [...] I am so excited to have this book published. The book is meant as a guide for data integration, manipulation and visualization of phylogenetic trees using a suite of R packages, tidytree, treeio, ggtree and ggtreeExtra. Hence, if you are starting to read this book, we assume you have a working knowledge of how to use R and ggplot2. The development of the ggtree package started during my PhD study at the University of Hong Kong. I joined the State Key Laboratory of Emerging Infectious Diseases (SKLEID) under the supervision of Yi Guan ...
